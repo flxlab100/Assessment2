@@ -58,21 +58,36 @@ header{
     }
 #groupforms{
         position:absolute;
-        top: 110%;
+        top: 120%;
         left:50%;
-        height:130vh;
+        height:150vh;
         transform: translate(-50%, -50%);
         width:760px; 
         background: rgba(0,0,0,0,6);
         background-color: rgb(252, 246, 239);  
         box-sizing: border-box;
         padding: 30px 40px;
+        border-radius: 8px;
      
 }
 
- 
+ .input-details{
+    padding:5px 5px 5px;
+    border: 1px solid gray;
+    margin: 6px 0;
+    border-radius: 8px;
 
+ }
+.input-details label{
+    display:block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
    
+
+
     .bookingdetails button {
         font-size: 20px;
         font-weight: bold;
