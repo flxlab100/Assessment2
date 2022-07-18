@@ -3,7 +3,8 @@
     <head>
         <title>Hotel</title>
         <link rel="stylesheet" href="./style.css" />
-    </head>
+        <link rel="index.js"   href="./index.js"/>
+     </head>
 
     <body>
         <header>
@@ -22,6 +23,7 @@
 
         <br><br>
         <section>
+          <div class="container">
             <div class="bookingdetails">
                 <h1>Booking Details</h1>
                 <form action="#" method="post">
@@ -32,68 +34,48 @@
                      <label for="oneway">Round trip:</label>
                     
                      <br><br><br><br>
-                    <label for="From">From:</label>
+                    <label for="from">From:</label>
                     <br>
-                     <input type="text" name="City or Airport" placeholder="City or Airport"">
+                     <input type="text" name="City or Airport" id="from">
                      <br>
-                     <label for="From">To:</label>
+                     <label for="to">To:</label>
                      <br>
-                     <input type="text" name="City or Airport" placeholder="City or Airport">
+                     <input type="text" name="City or Airport" id="to">
                      <br>
-                     <label for="From">Departure:</label> 
-                     <input type="date" name="date" placeholder="date">
-                     <label for="From">Return date:</label> 
-                     <input type="date" name="date" placeholder="date">
+                     <label for="departure">Departure:</label> 
+                     <input type="date" name="date"  id="departure">
+                     <br>
+                     <label for="return-date">Return date:</label> 
+                     <input type="date" name="date" id="return-date">
                      <br><br><br>
+                      
                      <h2>Number of Passengers</h2>
-                     <label for="Adults">Adults</label> 
-                     <input type="number" name="dnumber" placeholder="number">
-                     <label for="Children">Adults</label> 
-                     <input type="number" name="dnumber" placeholder="number">
+                     <label for="adults">Adults</label> 
+                     <input type="number" name="number" id="adults">
+                     
                      <br><br><br>
                      <h3>Passenger 1 details</h3>
-                     <label for="Name">Name:</label> 
-                     <input type="name" name="name" placeholder="name">
+                     <label for="name">Name:</label> 
+                     <input type="name" name="name" id="name">
                      <label for="gender">Gender:</label>
-                     Male: <input type="radio" name="gender" value="male">
-                     Female: <input type="radio" name="gender" value="female">
-                      
-                     <label for="Age">Age</label> 
-                     <input type="number" name="number" placeholder="number">
+                     Male: <input type="radio" name="gender" id="gender">
+                     Female: <input type="radio" name="gender" id="gender">
+                     <label for="age">Age</label> 
+                     <input type="number" name="number" id="age">
                      
                      <br><br><br>
                      <h3>Passenger 2 details</h3>
-                     <label for="Name">Name:</label> 
-                     <input type="name" name="name" placeholder="name">
-                     <br>
+                     <label for="name">Name:</label> 
+                     <input type="name" name="name" id="name">
                      <label for="gender">Gender:</label>
-                     Male: <input type="radio" name="gender" value="male">
-                     Female: <input type="radio" name="gender" value="female">
-                      <br>
-                     <label for="Age">Age</label> 
-                     <input type="number" name="number" placeholder="number">
+                     Male: <input type="radio" name="gender" id="gender">
+                     Female: <input type="radio" name="gender" id="gender">
+                     <label for="age">Age</label> 
+                     <input type="number" name="number" id="age">
                      <br><br><br>
-                     <h3>Passenger 3 details</h3>
-                     <label for="Name">Name:</label> 
-                     <input type="name" name="name" placeholder="name">
-                     <br>
-                     <label for="gender">Gender:</label>
-                     Male: <input type="radio" name="gender" value="male">
-                     Female: <input type="radio" name="gender" value="female">
-                      <br>
-                     <label for="Age">Age</label> 
-                     <input type="number" name="number" placeholder="number">
-
-                    <br>
-                     <label for="Foodtype">Food type:</label> 
-                     <select name="food">
-                        <option value="food1">tarcos</option>
-                        <option value="food2">wine</option>
-                        <option value="food3">beer</option>
-                      </select>
-                      <br>
-                      <label for="Travel class">Travel class:</label> 
-                      <select name="food">
+                    
+                      <label for="travel-class">Travel class:</label> 
+                      <select name="food" id="travel-class">
                          <option value="Economy">Economy</option>
                          <option value="Bussiness">Bussiness</option>
                          <option value="First">First</option>
@@ -102,17 +84,19 @@
 
                      <h3>Payment Details</h3>
                      <label for="fullname">Full name:</label> 
-                     <input type="name" name="fullname" placeholder="fullname">
+                     <input type="name" name="fullname" id="fullname">
                      <br>
                      <label for="email">Email:</label> 
-                     <input type="text" name="email" placeholder="email">
+                     <input type="text" name="email" id="email">
                      <br>
                      <label for="mobile">Mobile:</label> 
-                     <input type="number" name="mobile" placeholder="mobile">
+                     <input type="number" name="mobile" id="mobile">
                      <br>
 
-                     <button type="submit">book</button>
+                     <button type="submit">Book Now</button>
+
                 </form>
+              </div>
                </div>
         </section>
 

@@ -63,28 +63,33 @@ header{
         left:50%;
         height:130vh;
         transform: translate(-50%, -50%);
-        width:600px; 
+        width:760px; 
         background: rgba(0,0,0,0,6);
         background-color: whitesmoke;
          
         box-sizing: border-box;
     
     }
-
+   
     .bookingdetails button {
         font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
         padding:10px 15px;
-        width: 40%;
+        width: 30%;
         border:0;
-        border-radius: 2px;
-        background-color: rgb(235, 218, 163);
+        border-radius: 5px;
+        background-color: rgb(138, 70, 45);
         position:center;
     }
 
+    .bookingdetails button:hover{
+        color:aliceblue;
+    }
+
     .bookingdetails h1{
-        color:rgb(12, 12, 12);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(129, 53, 53);
         font-size: 40px;
         text-align: center;
     }

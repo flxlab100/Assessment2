@@ -1,0 +1,1 @@
+const newTaskNameInput = document.querySelector('#newTaskNameInput');
