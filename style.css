@@ -135,6 +135,13 @@ header{
          
     }
 
+    .input-details[type="radio"]{
+        display: inline flex;
+        align-items: left  
+        margin-right:2px;
+    }   
+    <!--how to position radio-->
+
  
 
     
