@@ -1,0 +1,101 @@
+*{
+    color:rgb(10, 10, 10);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: url(./images/dessert.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    
+    }
+
+header{
+        text-align: center;
+        text-decoration: none;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px;
+        color:white;
+    }
+
+    nav{
+     
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        
+        
+    }
+    
+    nav ul {
+        list-style:none;
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 1px;
+        gap: 0;         
+        
+    }
+    
+    nav ul li {
+        padding: 20px 20px;   
+        
+    }
+
+    nav ul li a {
+        display: grid;
+        background-color:#0b0b0b;
+        text-decoration: none;
+        font-size: 15px;
+        text-align: center;
+        color:#fbf7f7;
+        border-style:none; 
+         
+    }
+
+    .bookingdetails {
+        position:absolute;
+        top: 110%;
+        left:50%;
+        height:130vh;
+        transform: translate(-50%, -50%);
+        width:600px; 
+        background: rgba(0,0,0,0,6);
+        background-color: whitesmoke;
+         
+        box-sizing: border-box;
+    
+    }
+
+    .bookingdetails button {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+        padding:10px 15px;
+        width: 40%;
+        border:0;
+        border-radius: 2px;
+        background-color: rgb(235, 218, 163);
+        position:center;
+    }
+
+    .bookingdetails h1{
+        color:rgb(12, 12, 12);
+        font-size: 40px;
+        text-align: center;
+    }
+    .bookingdetails h2{
+        color:rgb(8, 8, 8);
+        font-size: 20px;
+        text-align: left;
+        margin:0;
+        padding:0 0 20px;
+    }
+
+    .bookingdetails h3{
+        text-align: left; 
+    }
