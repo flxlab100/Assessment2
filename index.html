@@ -22,9 +22,16 @@
 
         <br><br>
         <section>
-            <div class="mybookings">
-                <h1>Mybookings</h1>
+            <div class="bookingdetails">
+                <h1>Booking Details</h1>
                 <form action="#" method="post">
+                    <input type="radio" name="One way" value="One way">
+                    <label for="oneway">One way:</label>
+                    
+                    <input type="radio" name="Round trip" value="Round trip">
+                     <label for="oneway">Round trip:</label>
+                    
+                     <br>
                     <label for="From">From:</label>
                      <input type="text" name="City or Airport" placeholder="City or Airport"">
                      <label for="From">To:</label>
@@ -73,6 +80,30 @@
                      <label for="Age">Age</label> 
                      <input type="number" name="number" placeholder="number">
 
+                    <br>
+                     <label for="Foodtype">Food type:</label> 
+                     <select name="food">
+                        <option value="food1">tarcos</option>
+                        <option value="food2">wine</option>
+                        <option value="food3">beer</option>
+                      </select>
+                      <br>
+                      <label for="Travel class">Travel class:</label> 
+                      <select name="food">
+                         <option value="Economy">Economy</option>
+                         <option value="Bussiness">Bussiness</option>
+                         <option value="First">First</option>
+                       </select>
+                      <br> <br><br>
+
+                     <h3>Payment Details</h3>
+                     <label for="fullname">Full name:</label> 
+                     <input type="name" name="fullname" placeholder="fullname">
+                     <label for="email">Email:</label> 
+                     <input type="text" name="email" placeholder="email">
+                     <label for="mobile">Mobile:</label> 
+                     <input type="number" name="mobile" placeholder="mobile">
+                     <br>
 
                      <button type="submit">book</button>
                 </form>
