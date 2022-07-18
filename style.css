@@ -56,8 +56,7 @@ header{
         border-style:none; 
          
     }
-
-    .container {
+#groupforms{
         position:absolute;
         top: 110%;
         left:50%;
@@ -67,8 +66,12 @@ header{
         background: rgba(0,0,0,0,6);
         background-color: rgb(252, 246, 239);  
         box-sizing: border-box;
-    
-    }
+        padding: 30px 40px;
+     
+}
+
+ 
+
    
     .bookingdetails button {
         font-size: 20px;
@@ -88,7 +91,7 @@ header{
 
     .bookingdetails h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color:rgb(129, 53, 53);
+        color:rgb(237, 140, 49);
         font-size: 40px;
         text-align: center;
     }
@@ -98,10 +101,12 @@ header{
         text-align: left;
         margin:0;
         padding:0 0 20px;
+        t 
     }
 
     .bookingdetails h3{
         text-align: left; 
+         
     }
 
     

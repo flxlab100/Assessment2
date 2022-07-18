@@ -23,77 +23,91 @@
 
         <br><br>
         <section>
-          <div class="container">
-            <div class="bookingdetails">
-                <h1>Booking Details</h1>
-                <form action="#" method="post">
-                    <input type="radio" name="One way" id="oneway">
-                    <label for="oneway">One way:</label>
-                    
-                    <input type="radio" name="Round trip" id="roundtrip">
+        
+          <div class="bookingdetails">
+                   <h1>Booking Details</h1>
+              <form action="#" method="post" id="groupforms">
+
+                <div class="input-details">
+                     <input type="radio" name="One way" id="oneway">
+                     <label for="oneway">One way:</label>
+                  
+                     <input type="radio" name="Round trip" id="roundtrip">
                      <label for="roundtrip">Round trip:</label>
-                    
-                     <br><br><br><br>
-                    <label for="from">From:</label>
-                    <br>
-                     <input type="text" name="City or Airport" id="from">
-                     <br>
-                     <label for="to">To:</label>
-                     <br>
-                     <input type="text" name="City or Airport" id="to">
-                     <br>
-                     <label for="departure">Departure:</label> 
-                     <input type="date" name="date"  id="departure">
-                     <br>
-                     <label for="return-date">Return date:</label> 
-                     <input type="date" name="date" id="return-date">
-                     <br><br><br>
-                      
-                     <h2 id="numberofpassengers">Number of Passengers</h2>
-                     <label for="numofadults">Adults</label> 
-                     <input type="number" name="number" id="numofadults" >
-                      
-                     
-                     <br><br><br>
-                     <h3 id="passenger1">Passenger 1 details</h3>
-                     <label for="name1">Name:</label> 
-                     <input type="name" name="name1" id="name1">
-                     <label for="gender">Gender:</label>
-                     Male: <input type="radio" name="gender" id="gender">
-                     Female: <input type="radio" name="gender" id="gender">
-                     <label for="age">Age</label> 
-                     <input type="number" name="number" id="age">
+                </div>
+                   <br>
 
-                     
-                     <br><br><br>
-                     <h3 id="passenger2">Passenger 2 details</h3>
-                     <label for="name2">Name:</label> 
-                     <input type="name" name="name2" id="name2">
-                     <label for="gender">Gender:</label>
-                     Male: <input type="radio" name="gender" id="gender">
-                     Female: <input type="radio" name="gender" id="gender">
-                     <label for="age">Age</label> 
-                     <input type="number" name="number" id="age">
-                     <br><br><br>
-                    
-                      <label for="travel-class">Travel class:</label> 
-                      <select name="food" id="travel-class">
-                         <option value="Economy">Economy</option>
-                         <option value="Bussiness">Bussiness</option>
-                         <option value="First">First</option>
-                       </select>
-                      <br> <br><br>
+                      <div class="input-details">
+                            <label for="from">From:</label>
+                           <br>
+                            <input type="text" name="City or Airport" id="from">
+                           <br>
+                            <label for="to">To:</label>
+                           <br>
+                          <input type="text" name="City or Airport" id="to">
+                           <br>
+                          <label for="departure">Departure:</label> 
+                          <input type="date" name="date"  id="departure">
+                          <br>
+                          <label for="return-date">Return date:</label> 
+                          <input type="date" name="date" id="return-date">
+                          <br><br><br>
+                     </div>
 
-                     <h3>Payment Details</h3>
-                     <label for="fullname">Full name:</label> 
-                     <input type="name" name="fullname" id="fullname">
-                     <br>
-                     <label for="email">Email:</label> 
-                     <input type="text" name="email" id="email">
-                     <br>
-                     <label for="mobile">Mobile:</label> 
-                     <input type="number" name="mobile" id="mobile">
-                     <br>
+
+
+                     <div class="input-details">
+                          <h2 id="numberofpassengers">Number of Passengers</h2>
+                          <label for="numofadults">Adults</label> 
+                          <input type="number" name="number" id="numofadults" >
+                     </div>
+
+                     <div class="input-details">
+                   <br><br><br>
+                          <h3 id="passenger1">Passenger 1</h3>
+                            <label for="name1">Name:</label> 
+                            <input type="name" name="name1" id="name1">
+                            <label for="gender">Gender:</label>
+                            Male: <input type="radio" name="gender" id="gender">
+                            Female: <input type="radio" name="gender" id="gender">
+                            <label for="age">Age</label> 
+                            <input type="number" name="number" id="age">
+                    </div>
+                   
+                    <div class="input-details">
+                    <br><br><br>
+                         <h3 id="passenger2">Passenger 2</h3>
+                           <label for="name2">Name:</label> 
+                           <input type="name" name="name2" id="name2">
+                           <label for="gender">Gender:</label>
+                           Male: <input type="radio" name="gender" id="gender">
+                           Female: <input type="radio" name="gender" id="gender">
+                          <label for="age">Age</label> 
+                          <input type="number" name="number" id="age">
+                    </div>
+                          <br> 
+                  
+                   <div class="input-details">
+                        <label for="travel-class">Travel class:</label> 
+                           <select name="food" id="travel-class">
+                              <option value="Economy">Economy</option>
+                              <option value="Bussiness">Bussiness</option>
+                              <option value="First">First</option>
+                           </select>
+                    </div>
+                         <br> <br><br>
+                    <div class="input-details">
+                        <h3>Payment Details</h3>
+                       <label for="fullname">Full name:</label> 
+                        <input type="name" name="fullname" id="fullname">
+                         <br>
+                        <label for="email">Email:</label> 
+                        <input type="text" name="email" id="email">
+                        <br>
+                        <label for="mobile">Mobile:</label> 
+                        <input type="number" name="mobile" id="mobile">
+                        <br>
+                   </div>
 
                      <button type="button" onclick="Numofadults()">Book Now</button>
                      
