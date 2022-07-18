@@ -57,7 +57,7 @@ header{
          
     }
 
-    .bookingdetails {
+    .container {
         position:absolute;
         top: 110%;
         left:50%;
@@ -65,8 +65,7 @@ header{
         transform: translate(-50%, -50%);
         width:760px; 
         background: rgba(0,0,0,0,6);
-        background-color: whitesmoke;
-         
+        background-color: rgb(252, 246, 239);  
         box-sizing: border-box;
     
     }
@@ -104,3 +103,5 @@ header{
     .bookingdetails h3{
         text-align: left; 
     }
+
+    

@@ -3,7 +3,7 @@
     <head>
         <title>Hotel</title>
         <link rel="stylesheet" href="./style.css" />
-        <link rel="index.js"   href="./index.js"/>
+        <script src="index.js"></script>
      </head>
 
     <body>
@@ -27,11 +27,11 @@
             <div class="bookingdetails">
                 <h1>Booking Details</h1>
                 <form action="#" method="post">
-                    <input type="radio" name="One way" value="One way">
+                    <input type="radio" name="One way" id="oneway">
                     <label for="oneway">One way:</label>
                     
-                    <input type="radio" name="Round trip" value="Round trip">
-                     <label for="oneway">Round trip:</label>
+                    <input type="radio" name="Round trip" id="roundtrip">
+                     <label for="roundtrip">Round trip:</label>
                     
                      <br><br><br><br>
                     <label for="from">From:</label>
@@ -49,24 +49,26 @@
                      <input type="date" name="date" id="return-date">
                      <br><br><br>
                       
-                     <h2>Number of Passengers</h2>
-                     <label for="adults">Adults</label> 
-                     <input type="number" name="number" id="adults">
+                     <h2 id="numberofpassengers">Number of Passengers</h2>
+                     <label for="numofadults">Adults</label> 
+                     <input type="number" name="number" id="numofadults" >
+                      
                      
                      <br><br><br>
-                     <h3>Passenger 1 details</h3>
-                     <label for="name">Name:</label> 
-                     <input type="name" name="name" id="name">
+                     <h3 id="passenger1">Passenger 1 details</h3>
+                     <label for="name1">Name:</label> 
+                     <input type="name" name="name1" id="name1">
                      <label for="gender">Gender:</label>
                      Male: <input type="radio" name="gender" id="gender">
                      Female: <input type="radio" name="gender" id="gender">
                      <label for="age">Age</label> 
                      <input type="number" name="number" id="age">
+
                      
                      <br><br><br>
-                     <h3>Passenger 2 details</h3>
-                     <label for="name">Name:</label> 
-                     <input type="name" name="name" id="name">
+                     <h3 id="passenger2">Passenger 2 details</h3>
+                     <label for="name2">Name:</label> 
+                     <input type="name" name="name2" id="name2">
                      <label for="gender">Gender:</label>
                      Male: <input type="radio" name="gender" id="gender">
                      Female: <input type="radio" name="gender" id="gender">
@@ -93,11 +95,13 @@
                      <input type="number" name="mobile" id="mobile">
                      <br>
 
-                     <button type="submit">Book Now</button>
+                     <button type="button" onclick="Numofadults()">Book Now</button>
+                     
 
                 </form>
-              </div>
-               </div>
+                <p id="demo"></p>
+             </div>
+          </div>
         </section>
 
     </body>
