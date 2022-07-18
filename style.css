@@ -56,13 +56,14 @@ header{
         border-style:none; 
          
     }
+
 #groupforms{
         position:absolute;
-        top: 120%;
+        top: 128%;
         left:50%;
-        height:150vh;
+        height:167vh;
         transform: translate(-50%, -50%);
-        width:760px; 
+        width:500px; 
         background: rgba(0,0,0,0,6);
         background-color: rgb(252, 246, 239);  
         box-sizing: border-box;
@@ -78,6 +79,7 @@ header{
     border-radius: 8px;
 
  }
+
 .input-details label{
     display:block;
     text-align: left;
@@ -86,9 +88,16 @@ header{
     font-size: 14px;
 }
    
-
+.input-details input{
+      width: 100%;
+      border: none;
+      background-color: rgb(218, 214, 214);
+       
+      
+}
 
     .bookingdetails button {
+        display:block;
         font-size: 20px;
         font-weight: bold;
         margin: 20px 0;
@@ -98,6 +107,8 @@ header{
         border-radius: 5px;
         background-color: rgb(138, 70, 45);
         position:center;
+        cursor: pointer;
+        width: 100%;
     }
 
     .bookingdetails button:hover{
@@ -123,5 +134,7 @@ header{
         text-align: left; 
          
     }
+
+ 
 
     
