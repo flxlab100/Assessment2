@@ -26,7 +26,8 @@
         
           <div class="bookingdetails">
                    <h1>Booking Details</h1>
-              <form  id="groupforms" action="#" method="post" >
+              <form  id="groupforms" action="#" method="post" onsubmit="confirmInput()">
+
 
                 <div class="input-details">
 
@@ -120,14 +121,14 @@
                         <input type="name" name="fullname" id="fullname" required>
                          <br>
                         <label for="email">Email:</label> 
-                        <input type="text" name="email" id="email"required>
+                        <input type="text" name="email" id="email" required>
                         <br>
                         <label for="mobile">Mobile:</label> 
                         <input type="number" name="mobile" id="mobile" required>
                         <br>
                    </div>
 
-                     <button type="button" onclick="Numofadults()">Book Now</button>
+                     <button type="submit">Book Now</button>
                      <p id="demo"></p>
 
                 </form>
