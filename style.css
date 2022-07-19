@@ -58,8 +58,9 @@ header{
     }
 
 #groupforms{
+        
         position:absolute;
-        top: 118%;
+        top: 130%;
         left:50%;
         height:173vh;
         transform: translate(-50%, -50%);
@@ -107,7 +108,6 @@ header{
  margin: 3px 3px 3px;
 }
  
-
 
     .bookingdetails button {
         display:block;
@@ -159,6 +159,7 @@ header{
     }  
 
     <!--how to position radio-->
+    <!--how to 
 
  
   
