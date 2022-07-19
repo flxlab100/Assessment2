@@ -59,12 +59,12 @@ header{
 
 #groupforms{
         position:absolute;
-        top: 128%;
+        top: 118%;
         left:50%;
-        height:160vh;
+        height:168vh;
         transform: translate(-50%, -50%);
         width:500px; 
-        background: rgba(0,0,0,0,6);
+        background: rgba(0,0,0,0,90);
         background-color: rgb(252, 246, 239);  
         box-sizing: border-box;
         padding: 30px 40px;
@@ -79,23 +79,35 @@ header{
     border: 1px solid gray;
     margin: 6px 0;
     border-radius: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
  }
 
 .input-details label{
-    
+    display: inline-block;
     text-align: left;
     color: #333;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:4px;
 }
    
 .input-details input{
       width: 100%;
       border: none;
-      background-color: rgb(218, 214, 214);     
+      background-color: rgb(235, 231, 231);  
+      padding:5px;   
       
 }
+
+#gender{
+ margin-left:2px;
+ margin: 3px 3px 3px;
+}
+ 
+
 
     .bookingdetails button {
         display:block;
@@ -141,8 +153,8 @@ header{
     input[type="radio"]{
         display:inline-flex;
         align-items: left; 
-         height:13px;
-         width:13px;
+        height:13px;
+        width:13px;
          
     }  
 
