@@ -8,7 +8,7 @@
 
 
 body{
-    background-image: url(./images/dessert.jpg);
+    background-image: url(./images/waterflow.jpg);
     background-repeat: repeat;
     background-size: 100%;
     
@@ -72,6 +72,11 @@ header{
      
 }
 
+input[type="radio"]{
+    display: inline-flex;
+     
+}
+
  .input-details{
     padding:5px 5px 5px;
     border: 1px solid gray;
@@ -105,7 +110,7 @@ header{
         width: 30%;
         border:0;
         border-radius: 5px;
-        background-color: rgb(138, 70, 45);
+        background-color: rgb(103, 208, 220);
         position:center;
         cursor: pointer;
         width: 100%;
@@ -117,7 +122,7 @@ header{
 
     .bookingdetails h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color:rgb(237, 140, 49);
+        color:rgb(252, 251, 250);
         font-size: 40px;
         text-align: center;
     }
