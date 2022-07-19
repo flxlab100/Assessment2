@@ -47,12 +47,11 @@ header{
     }
 
     nav ul li a {
-        display: grid;
-        background-color:#0b0b0b;
+        display: grid;     
         text-decoration: none;
-        font-size: 15px;
+        font-size: 26px;
         text-align: center;
-        color:#fbf7f7;
+        color:#060606;
         border-style:none; 
          
     }
