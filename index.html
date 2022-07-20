@@ -3,12 +3,13 @@
     <head>
         <title>Amazing Flight</title>
         <link rel="stylesheet" href="./style.css" />
-        <script src="index.js"></script>
+        
      </head>
 
     <body>
         <header>
             <h1>Amazing Flight</h1>
+            <script src="./index.js" type="text/javascript"></script>
             <br><br>
             <nav> 
               <ul> 
@@ -26,7 +27,7 @@
         
           <div class="bookingdetails">
                    <h1>Booking Details</h1>
-              <form  id="groupforms" action="#" method="post">
+              <form  id="groupforms" action="groupforms.html" method="post">
 
 
                 <div class="input-details">
@@ -42,10 +43,11 @@
                       <div class="input-details">
                             <label for="from">From:</label>
                           <input type="text" name="City or Airport" id="from" requiredd>
-                           
+                            <small></small>
+
                             <label for="to">To:</label>
                             <input type="text" name="City or Airport" id="to" required>
-                          
+                            <small></small>
                            <br>
                            <br>
                           <label for="departure">Departure:</label> 
@@ -128,7 +130,7 @@
                         <br>
                    </div>
 
-                     <button type="submit">Book Now</button>
+                     <button type="submit" onclick="buttonclicked()">Book Now</button>
                      <p id="demo"></p>
 
                 </form>
@@ -136,6 +138,6 @@
              </div>
           </div>
         </section>
-
+      
     </body>
 </html>
