@@ -26,7 +26,7 @@
         
           <div class="bookingdetails">
                    <h1>Booking Details</h1>
-              <form  id="groupforms" action="#" method="post" onsubmit="confirmInput()">
+              <form  id="groupforms" action="#" method="post">
 
 
                 <div class="input-details">
@@ -41,10 +41,10 @@
 
                       <div class="input-details">
                             <label for="from">From:</label>
-                          <input type="text" name="City or Airport" id="from">
+                          <input type="text" name="City or Airport" id="from" requiredd>
                            
                             <label for="to">To:</label>
-                            <input type="text" name="City or Airport" id="to">
+                            <input type="text" name="City or Airport" id="to" required>
                           
                            <br>
                            <br>
@@ -69,7 +69,7 @@
                    
                         <h3 id="passenger1">Passenger 1</h3>
                             <label for="name1">Name:</label> 
-                            <input type="name" name="name1" id="name1">
+                            <input type="name" name="name1" id="name1" required>
                             <br>
                          
                             <label for="gender">Gender:</label>
@@ -82,7 +82,7 @@
                           </div>
                             <br>
                             <label for="age">Age:</label> 
-                            <input type="number" name="number" id="age">
+                            <input type="number" name="number" id="age" required>
 
                     </div>  
                    
@@ -91,7 +91,7 @@
                        <h3 id="passenger2">Passenger 2</h3>
                        <br>
                             <label for="name2">Name:</label> 
-                            <input type="name" name="name2" id="name2">
+                            <input type="name" name="name2" id="name2" required>
                             <br>
                        
                             <label for="gender">Gender:</label>
@@ -102,7 +102,7 @@
 
                             <br>
                             <label for="age">Age:</label> 
-                            <input type="number" name="number" id="age">
+                            <input type="number" name="number" id="age" required>
                     </div>
                           
                   
@@ -118,13 +118,13 @@
                     <div class="input-details">
                         <h3>Payment Details</h3>
                        <label for="fullname">Full name:</label> 
-                        <input type="name" name="fullname" id="fullname" required>
+                        <input type="name" name="fullname" id="fullname" size="20">
                          <br>
                         <label for="email">Email:</label> 
                         <input type="text" name="email" id="email" required>
                         <br>
                         <label for="mobile">Mobile:</label> 
-                        <input type="number" name="mobile" id="mobile" required>
+                        <input type="number" name="mobile" id="mobile" size="11">
                         <br>
                    </div>
 

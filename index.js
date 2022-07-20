@@ -1,26 +1,9 @@
- 
-  function Numofadults(){
-    let x = document.getElementById("numofadults").value;
-    // If x is Not a Number or less than one or greater than 10
-    let text;
-    if (isNaN(x) || x < 1 || x > 3) {
-      text = "Input not valid";
-    } else {
-      text = "Input OK";
-    }
-    document.getElementById("demo").innerHTML = text;
-  }
 
-  function confirmInput(){
-    let y = document.getElementById("fullname").value;
+const fullname=document.querySelector('#fullname');
+const email=document.querySelector('#email');
+const mobile=document.querySelector("#mobile");
+const gform=document.querySelector('#groupforms');
 
-       if(y.length<=5){
-        alert('hello'+ y.length);
-      return false;
-       } 
-}
-
- 
-
-
-  
+gform.addEventListener('submit', function (e) {
+  e.preventDefault();
+});
