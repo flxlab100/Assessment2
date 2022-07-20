@@ -9,7 +9,7 @@
     <body>
         <header>
             <h1>Amazing Flight</h1>
-            <script src="./index.js" type="text/javascript"></script>
+            
             <br><br>
             <nav> 
               <ul> 
@@ -54,8 +54,8 @@
                           <input type="date" name="date"  id="departure">
                           <br>
                           <br>
-                          <label for="return-date">Return date:</label> 
-                          <input type="date" name="date" id="return-date">
+                          <label for="return">Return date:</label> 
+                          <input type="date" name="date" id="return">
                           <br><br><br>
                      </div>
 
@@ -71,7 +71,7 @@
                    
                         <h3 id="passenger1">Passenger 1</h3>
                             <label for="name1">Name:</label> 
-                            <input type="name" name="name1" id="name1" required>
+                            <input type="text" name="name1" id="name1" required>
                             <br>
                          
                             <label for="gender">Gender:</label>
@@ -88,25 +88,6 @@
 
                     </div>  
                    
-                    <div class="input-details">
-                    
-                       <h3 id="passenger2">Passenger 2</h3>
-                       <br>
-                            <label for="name2">Name:</label> 
-                            <input type="name" name="name2" id="name2" required>
-                            <br>
-                       
-                            <label for="gender">Gender:</label>
-                            <br>
-                            Male: <input type="radio" name="gender" id="gender">
-                            
-                            Female: <input type="radio" name="gender" id="gender">
-
-                            <br>
-                            <label for="age">Age:</label> 
-                            <input type="number" name="number" id="age" required>
-                    </div>
-                          
                   
                    <div class="input-details">
                         <h3>Travel class:</h3>
@@ -120,7 +101,7 @@
                     <div class="input-details">
                         <h3>Payment Details</h3>
                        <label for="fullname">Full name:</label> 
-                        <input type="name" name="fullname" id="fullname" size="20">
+                        <input type="text" name="fullname" id="fullname" size="20">
                          <br>
                         <label for="email">Email:</label> 
                         <input type="text" name="email" id="email" required>
@@ -138,6 +119,6 @@
              </div>
           </div>
         </section>
-      
+        <script src="./index.js" type="text/javascript"></script>
     </body>
 </html>
