@@ -159,9 +159,11 @@ header{
         width:13px;
          
     }  
-
+    
+    #error {
+        color: red;
+    }
     <!--how to position radio-->
     <!--how to 
 
  
-  

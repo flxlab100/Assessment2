@@ -27,7 +27,7 @@
         
           <div class="bookingdetails">
                    <h1>Booking Details</h1>
-              <form  id="groupforms" action="groupforms.html" method="post">
+              <form  id="groupforms">
 
 
                 <div class="input-details">
@@ -42,12 +42,12 @@
 
                       <div class="input-details">
                             <label for="from">From:</label>
-                          <input type="text" name="City or Airport" id="from" requiredd>
-                            <small></small>
+                          <input type="text" name="City or Airport" id="from">
+                             <div id="small"></div>
 
                             <label for="to">To:</label>
-                            <input type="text" name="City or Airport" id="to" required>
-                            <small></small>
+                            <input type="text" name="City or Airport" id="to">
+                            <div id="small"></div>
                            <br>
                            <br>
                           <label for="departure">Departure:</label> 
@@ -100,18 +100,21 @@
                         
                     <div class="input-details">
                         <h3>Payment Details</h3>
-                       <label for="fullname">Full name:</label> 
+                       <label for="fullname">Full name:</label>
+                       <div id="error"></div>  
                         <input type="text" name="fullname" id="fullname" size="20">
                          <br>
                         <label for="email">Email:</label> 
+                        <div id="error"></div>  
                         <input type="text" name="email" id="email" required>
                         <br>
-                        <label for="mobile">Mobile:</label> 
+                        <label for="mobile">Mobile:</label>
+                        <div id="error"></div>  
                         <input type="number" name="mobile" id="mobile" size="11">
                         <br>
                    </div>
 
-                     <button type="submit" onclick="buttonclicked()">Book Now</button>
+                     <button type="button" id="booknow">Book Now</button>
                      <p id="demo"></p>
 
                 </form>
